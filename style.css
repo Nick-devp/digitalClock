@@ -1,0 +1,31 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: coral;
+    color: black;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.container{
+width: -webkit-fill-available;
+height: 250px;
+background-color: black;
+color: greenyellow;
+border: 30px solid grey;
+border-radius: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+.first_row{
+    gap: 5px;
+}
+#clock{
+    display: inline;
+    font-size: 40px;
+}
+.dis{
+    margin: 22px;
+}
